@@ -1,4 +1,4 @@
-# react-typescript-material-ui
+# React Typescript Material UI
 This is a simple example showing how to use Reactjs with a TypeScript and Material UI.
 
 # React Component using Typescript
