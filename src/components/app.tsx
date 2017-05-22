@@ -8,7 +8,7 @@ const styles = {
   block: {
     maxWidth: 250
   },
-  checkbox: {
+  radiobutton: {
     marginBottom: 16
   }
 };
@@ -20,7 +20,7 @@ export default class App extends React.Component<Props, {}> {
         <h1>React Components in Typescript</h1>
         <h2>Radio Button</h2>
         <div style={styles.block}>
-          <RadioButton label="Simple" style={styles.checkbox}/>
+          <RadioButton label="Simple" style={styles.radiobutton}/>
         </div>
       </div>
     );
