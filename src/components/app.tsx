@@ -1,5 +1,6 @@
 import * as React from 'react';
 
+import RadioButtonGroup from './radio-button/radio-button-group';
 import RadioButton from './radio-button/radio-button';
 
 interface Props extends React.Props<App> {
@@ -20,7 +21,10 @@ export default class App extends React.Component<Props, {}> {
         <h1>React Components in Typescript</h1>
         <h2>Radio Button</h2>
         <div style={styles.block}>
-          <RadioButton label="Simple" style={styles.radiobutton}/>
+          <RadioButtonGroup name="shipSpeed">
+            <RadioButton label="Male" value="male" />
+            <RadioButton label="Female" value="female" />
+          </RadioButtonGroup>
         </div>
       </div>
     );
