@@ -11,13 +11,13 @@ Motivated from [Material-UI](http://callemall.github.io/material-ui/).
 - [ ] Label position - Left/Right
 - [ ] Pass disabled mode Styles
 
+## Usage
+### Basic:
     interface Props extends React.Props<RadioButton> {
         label : string;
         style: any;
     };
-
-## Usage
-### Basic:
+    
     const styles = {
       radiobutton: {
         marginBottom: 16
