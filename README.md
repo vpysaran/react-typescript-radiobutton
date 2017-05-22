@@ -3,7 +3,7 @@ This is a react based radio button component developed using Typescript.
 Motivated from [Material-UI](http://callemall.github.io/material-ui/).
 
 ## Features
-- [ ] Pass the Label Value
+- [x] Pass the Label Value
 - [ ] Pass Custom Style's
 - [ ] Customize Icon's in the form of SVG's
 - [ ] Pass Default value
