@@ -21,7 +21,7 @@ export default class App extends React.Component<Props, {}> {
         <h1>React Components in Typescript</h1>
         <h2>Radio Button</h2>
         <div style={styles.block}>
-          <RadioButtonGroup name="gender">
+          <RadioButtonGroup name="gender" defaultSelected="male">
             <RadioButton label="Male" value="male" />
             <RadioButton label="Female" value="female" />
             <RadioButton label="Others" value="others" />
